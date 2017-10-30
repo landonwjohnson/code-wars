@@ -8,3 +8,8 @@ function checkAlive (health) {
     }
     else return false
  }
+
+ //Other
+ function checkAlive(health) {
+    return health > 0;
+  }
